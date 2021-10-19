@@ -29,9 +29,6 @@ const updateContact = async (contactId, body) => {
   return contact;
 }
 
-// const updateStatusContact = async (contactId, body) => {
-//   const contact = await Contact.findOneAndUpdate
-// }
 
 module.exports = {
   listContacts,
@@ -39,5 +36,4 @@ module.exports = {
   removeContact,
   addContact,
   updateContact,
-  // updateStatusContact,
 }

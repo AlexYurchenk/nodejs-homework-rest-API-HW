@@ -23,6 +23,3 @@ process.on('SIGINT', async () => {
 });
 
 module.exports = db;
-
-
-// connect to DB
